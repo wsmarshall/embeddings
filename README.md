@@ -4,7 +4,7 @@ The curious reader can refer to the technical report included in the repository 
 excellent starting point. 
 
 This codebase is primarily written in Java and has extensive comments (some might say an excessive amount, but to that end, the author pleads his case that the comments were helping him with clarity for defining operations, since it turns out that
-computationalizing well-defined mathematical operations is still very finicky and detail oriented when making the procedures concrete with data structures and algorithm implementing) which hopefully will help the newcomer.
+computationalizing well-defined mathematical operations is a *very* detail oriented processwhen making the procedures concrete with data structures and algorithm implementing) which hopefully will help the newcomer.
 
 The main driving file is "Tester.java", which calls other files as needed. The Graph and Embedding classes form the core of the library insofar as the object-oriented paradigm is concerned.  The Embedding class should be initialized with the 
 structures that define an embedding - the 2d Array of integers which defines a graph's nodes and neighbor lists, and an array (or roughly equivalent structure) of its 'type 1' edges (edges which contain a half twist). This class also contains such
@@ -29,5 +29,4 @@ Please feel free to reach out with any further questions or clarifications.
 
 Best Regards,
 -Warren
-December 2023
 
